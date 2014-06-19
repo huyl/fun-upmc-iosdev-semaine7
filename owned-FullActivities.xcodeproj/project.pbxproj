@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E38DF9CABBB4E19BA81AB55 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2C0EE97EAB46FB93120E24 /* libPods.a */; };
 		E53D30C519526183002138EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D30C419526183002138EA /* Foundation.framework */; };
 		E53D30C719526183002138EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D30C619526183002138EA /* CoreGraphics.framework */; };
 		E53D30C919526183002138EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D30C819526183002138EA /* UIKit.framework */; };
@@ -22,6 +23,18 @@
 		E53D30E919526183002138EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D30C819526183002138EA /* UIKit.framework */; };
 		E53D30F119526183002138EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E53D30EF19526183002138EA /* InfoPlist.strings */; };
 		E53D30F319526183002138EA /* owned_FullActivitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D30F219526183002138EA /* owned_FullActivitiesTests.m */; };
+		E53D30FE1952660D002138EA /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D30FD1952660D002138EA /* libReactiveCocoa-iOS.a */; };
+		E53D31011952691D002138EA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D31001952691D002138EA /* TableViewController.m */; };
+		E53D310719526EB4002138EA /* TaskList.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D310619526EB4002138EA /* TaskList.m */; };
+		E53D310E1952AAAF002138EA /* prio0.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D31091952AAAF002138EA /* prio0.png */; };
+		E53D310F1952AAAF002138EA /* prio1.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D310A1952AAAF002138EA /* prio1.png */; };
+		E53D31101952AAAF002138EA /* prio2.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D310B1952AAAF002138EA /* prio2.png */; };
+		E53D31111952AAAF002138EA /* prio3.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D310C1952AAAF002138EA /* prio3.png */; };
+		E53D31121952AAAF002138EA /* prio4.png in Resources */ = {isa = PBXBuildFile; fileRef = E53D310D1952AAAF002138EA /* prio4.png */; };
+		E53D31181952BCF3002138EA /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D31171952BCF3002138EA /* TaskViewController.m */; };
+		E53D311B1952BE22002138EA /* TaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D311A1952BE22002138EA /* TaskView.m */; };
+		E53D311D1952E2F0002138EA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53D311C1952E2F0002138EA /* MobileCoreServices.framework */; };
+		E53D31201952F299002138EA /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D311F1952F299002138EA /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2C0EE97EAB46FB93120E24 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC561739F48486A8DEF0AF7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E53D30C119526183002138EA /* owned-FullActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "owned-FullActivities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53D30C419526183002138EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E53D30C619526183002138EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +70,23 @@
 		E53D30EE19526183002138EA /* owned-FullActivitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "owned-FullActivitiesTests-Info.plist"; sourceTree = "<group>"; };
 		E53D30F019526183002138EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E53D30F219526183002138EA /* owned_FullActivitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = owned_FullActivitiesTests.m; sourceTree = "<group>"; };
+		E53D30FD1952660D002138EA /* libReactiveCocoa-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libReactiveCocoa-iOS.a"; path = "external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos/libReactiveCocoa-iOS.a"; sourceTree = "<group>"; };
+		E53D30FF1952691D002138EA /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E53D31001952691D002138EA /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E53D310519526EB4002138EA /* TaskList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskList.h; sourceTree = "<group>"; };
+		E53D310619526EB4002138EA /* TaskList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskList.m; sourceTree = "<group>"; };
+		E53D31091952AAAF002138EA /* prio0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prio0.png; sourceTree = "<group>"; };
+		E53D310A1952AAAF002138EA /* prio1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prio1.png; sourceTree = "<group>"; };
+		E53D310B1952AAAF002138EA /* prio2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prio2.png; sourceTree = "<group>"; };
+		E53D310C1952AAAF002138EA /* prio3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prio3.png; sourceTree = "<group>"; };
+		E53D310D1952AAAF002138EA /* prio4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prio4.png; sourceTree = "<group>"; };
+		E53D31161952BCF3002138EA /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		E53D31171952BCF3002138EA /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
+		E53D31191952BE22002138EA /* TaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskView.h; sourceTree = "<group>"; };
+		E53D311A1952BE22002138EA /* TaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskView.m; sourceTree = "<group>"; };
+		E53D311C1952E2F0002138EA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E53D311E1952F299002138EA /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		E53D311F1952F299002138EA /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +94,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53D311D1952E2F0002138EA /* MobileCoreServices.framework in Frameworks */,
+				E53D30FE1952660D002138EA /* libReactiveCocoa-iOS.a in Frameworks */,
 				E53D30C719526183002138EA /* CoreGraphics.framework in Frameworks */,
 				E53D30C919526183002138EA /* UIKit.framework in Frameworks */,
 				E53D30C519526183002138EA /* Foundation.framework in Frameworks */,
+				1E38DF9CABBB4E19BA81AB55 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +123,7 @@
 				E53D30EC19526183002138EA /* owned-FullActivitiesTests */,
 				E53D30C319526183002138EA /* Frameworks */,
 				E53D30C219526183002138EA /* Products */,
+				1AC561739F48486A8DEF0AF7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +139,13 @@
 		E53D30C319526183002138EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E53D311C1952E2F0002138EA /* MobileCoreServices.framework */,
+				E53D30FD1952660D002138EA /* libReactiveCocoa-iOS.a */,
 				E53D30C419526183002138EA /* Foundation.framework */,
 				E53D30C619526183002138EA /* CoreGraphics.framework */,
 				E53D30C819526183002138EA /* UIKit.framework */,
 				E53D30E619526183002138EA /* XCTest.framework */,
+				0A2C0EE97EAB46FB93120E24 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,7 +159,18 @@
 				E53D30D919526183002138EA /* Main_iPad.storyboard */,
 				E53D30DC19526183002138EA /* ViewController.h */,
 				E53D30DD19526183002138EA /* ViewController.m */,
+				E53D30FF1952691D002138EA /* TableViewController.h */,
+				E53D31001952691D002138EA /* TableViewController.m */,
+				E53D31161952BCF3002138EA /* TaskViewController.h */,
+				E53D31171952BCF3002138EA /* TaskViewController.m */,
+				E53D31191952BE22002138EA /* TaskView.h */,
+				E53D311A1952BE22002138EA /* TaskView.m */,
+				E53D310519526EB4002138EA /* TaskList.h */,
+				E53D310619526EB4002138EA /* TaskList.m */,
+				E53D311E1952F299002138EA /* Task.h */,
+				E53D311F1952F299002138EA /* Task.m */,
 				E53D30DF19526183002138EA /* Images.xcassets */,
+				E53D31081952AAAF002138EA /* images */,
 				E53D30CB19526183002138EA /* Supporting Files */,
 			);
 			path = "owned-FullActivities";
@@ -155,6 +205,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E53D31081952AAAF002138EA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E53D31091952AAAF002138EA /* prio0.png */,
+				E53D310A1952AAAF002138EA /* prio1.png */,
+				E53D310B1952AAAF002138EA /* prio2.png */,
+				E53D310C1952AAAF002138EA /* prio3.png */,
+				E53D310D1952AAAF002138EA /* prio4.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E53D30F619526183002138EA /* Build configuration list for PBXNativeTarget "owned-FullActivities" */;
 			buildPhases = (
+				DA1D83715CFF4D90861380F7 /* Check Pods Manifest.lock */,
 				E53D30BD19526183002138EA /* Sources */,
 				E53D30BE19526183002138EA /* Frameworks */,
 				E53D30BF19526183002138EA /* Resources */,
+				E53D30FC195263A2002138EA /* ShellScript */,
+				71FBAC731542482889E2789A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +297,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E53D30DB19526183002138EA /* Main_iPad.storyboard in Resources */,
+				E53D31111952AAAF002138EA /* prio3.png in Resources */,
 				E53D30E019526183002138EA /* Images.xcassets in Resources */,
 				E53D30D819526183002138EA /* Main_iPhone.storyboard in Resources */,
+				E53D310E1952AAAF002138EA /* prio0.png in Resources */,
+				E53D31121952AAAF002138EA /* prio4.png in Resources */,
 				E53D30CF19526183002138EA /* InfoPlist.strings in Resources */,
+				E53D310F1952AAAF002138EA /* prio1.png in Resources */,
+				E53D31101952AAAF002138EA /* prio2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +318,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71FBAC731542482889E2789A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1D83715CFF4D90861380F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E53D30FC195263A2002138EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Users/huy/opt/iosdev-jailbreak/xcode-build-phase-run-script.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E53D30BD19526183002138EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -255,7 +371,12 @@
 			files = (
 				E53D30DE19526183002138EA /* ViewController.m in Sources */,
 				E53D30D519526183002138EA /* AppDelegate.m in Sources */,
+				E53D311B1952BE22002138EA /* TaskView.m in Sources */,
+				E53D31181952BCF3002138EA /* TaskViewController.m in Sources */,
+				E53D31201952F299002138EA /* Task.m in Sources */,
 				E53D30D119526183002138EA /* main.m in Sources */,
+				E53D310719526EB4002138EA /* TaskList.m in Sources */,
+				E53D31011952691D002138EA /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,12 +508,25 @@
 		};
 		E53D30F719526183002138EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC561739F48486A8DEF0AF7 /* Pods.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "owned-FullActivities/owned-FullActivities-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/Masonry\"",
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "owned-FullActivities/owned-FullActivities-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,12 +534,25 @@
 		};
 		E53D30F819526183002138EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC561739F48486A8DEF0AF7 /* Pods.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "owned-FullActivities/owned-FullActivities-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/Masonry\"",
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "owned-FullActivities/owned-FullActivities-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/ReactiveCocoa/ReactiveCocoaFramework/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +617,7 @@
 				E53D30F819526183002138EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E53D30F919526183002138EA /* Build configuration list for PBXNativeTarget "owned-FullActivitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +626,7 @@
 				E53D30FB19526183002138EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
