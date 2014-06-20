@@ -141,8 +141,12 @@
         return NO;
     }
     
-    self.task.label = self.titleField.text;
     return YES;
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    self.task.label = self.titleField.text;
 }
 
 #pragma mark - UISegmentedControl actions
